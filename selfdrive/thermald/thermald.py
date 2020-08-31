@@ -202,6 +202,7 @@ def thermald_thread():
   health_prev = None
   fw_version_match_prev = True
   current_connectivity_alert = None
+  charging_disabled = False
   time_valid_prev = True
   should_start_prev = False
   handle_fan = None
