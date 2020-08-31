@@ -4,6 +4,9 @@ from cereal import log
 
 CAMERA_OFFSET = 0.06  # m from center car to camera
 
+#zorrobyte
+def mean(numbers):
+     return float(sum(numbers)) / max(len(numbers), 1)
 
 def compute_path_pinv(l=50):
   deg = 3
